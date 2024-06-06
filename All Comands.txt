@@ -1,0 +1,45 @@
+1.  git clone [link] __________________________________________To clone remote repo to local
+2.  git add [name] ____________________________________________To add content
+3.  git add -A ________________________________________________To add all content
+4.  git add . _________________________________________________To add all content
+5.  ls ________________________________________________________To show all files in current repo
+6.  git status ________________________________________________To show content status
+7.  git rm -r [file name] _____________________________________To delete file/folder
+8.  git commit -m "[comment]"__________________________________To commit with comment
+9.  echo "[content]">>[name] __________________________________To create a new file in current branch
+10. mkdir [name] ______________________________________________To create new folder
+11. git init __________________________________________________To initialize an empty repo
+12.  git remote add origin [link] _____________________________To connect remote repo to local
+13.  git remote -v ____________________________________________To verify remote
+14. git branch ________________________________________________To Check the current branch name
+15. git branch -a _____________________________________________To Check all the branches name
+16.  git branch -M [branch name] ______________________________To rename branch
+17. git checkout [brach] ______________________________________To navigate/swtich branch
+18. git checkout -b [brabch name] _____________________________To create new branch
+19. git checkout -b [brabch name] [origin/branch name] ________To clone a remote branch and swtich to it
+20. git branch -d [branch name] _______________________________To delete branch
+21. git branch --delete [branch name] _________________________To delete a remote branch
+22. git branch -m [old branch name] [old branch name] _________To rename a local branch
+23. git cd [file name] ________________________________________To enter a folder directory
+24. git cd .. _________________________________________________To back from a folder directory
+25. git checkout --[filename] _________________________________To discard changes to a file
+26. git merge [branch name] ___________________________________To merge current branch with [branch name]
+27. git merge [source branch name] [target branch name] _______To merge banch with target branch
+28. git stash _________________________________________________To stash changes in a dirty working directory
+29. git stash clear ___________________________________________To remove all stashed entries
+30. git push origin [branch] __________________________________To push a local branch to remote repo
+31. git push -u origin [branch] _______________________________To push a local branch to remote repo and remember the branch
+32. git push __________________________________________________To push a local branch to remote repo [remembered branch]
+33. git push origin --delete [branch] _________________________To delete a remote branch
+34. git pull origin [branch name] _____________________________To download content from remote repo to local
+35. git pull __________________________________________________To update local repo to the newest commit
+36. git log ___________________________________________________To view changes
+37. git log --summary _________________________________________To view changes (detailed)
+38. git log --oneline _________________________________________To view changes briefly
+39. git diff [source branch] [target branch] __________________To see differences of two branch
+40. git diff [branch name] ____________________________________To compare current branch with [branch name]
+41. git reset [branch name] ___________________________________To undo staged changes for currrent file
+42. git reset _________________________________________________To undo staged changes for all file
+43. git reset HEAD~[1] ________________________________________To undo staged changes till [1] commit
+44. git reset [commit hash] ___________________________________To undo commited changes for many commits
+45. git reset --hard [commit hash] ____________________________To undo commited changes for many commits in remote
